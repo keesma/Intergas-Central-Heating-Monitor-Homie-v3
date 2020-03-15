@@ -1,7 +1,7 @@
 # Intergas-Central-Heating-Monitor-Homie-v3
 Intergas Central heating monitor for homie version 3
 
-This is an update of the previous Intergas Central Heating Monitor for homie version 2. The functionality is almost the same and now supports auto discovery. The software is monitoring my Intergas Prestige CW6 without any issues for many a years.
+This is an update of the previous Intergas Central Heating Monitor for homie version 2. The functionality is almost the same and now supports auto discovery. The software is monitoring my Intergas Prestige CW6 without any issues for many years.
 
 * This program can read the the status of a Central heating from Intergas.
   It has been built for an esp8266. The central heating status is sent through MQTT to a central system (MQTT broker).
