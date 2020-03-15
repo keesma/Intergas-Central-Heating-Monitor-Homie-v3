@@ -36,7 +36,8 @@ This is an update of the previous Intergas Central Heating Monitor for homie ver
 * Openhab: I have connected the esp8266 through MQTT to openhab. Openhab can display the data, save it and create nice graphs. The item definitions are included. The rules are required for translating the status bytes to (bit) values.
 https://github.com/keesma/Intergas-Central-Heating-Monitor-Homie/tree/master/openhab
 
-Openhab now also does auto discovery of homie devices since support for homie version 3.
+  Openhab now also does auto discovery of homie devices since support for homie version 3.
+  In the subdirectory openhab an example item file is included and a sample rules file. These have to be tuned to your needs (which fields do you need, will extract the fields in the device or in the server.
 
 * Power: I now use a D1 mini pro and a simple USB power supply.
 
